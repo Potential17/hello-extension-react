@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Hello Extension React",
+  "version": "1.0",
+  "description": "Displays a pop-up box with the message 'Hello'",
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_popup": "index.html"
+  }
+}
